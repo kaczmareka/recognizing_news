@@ -196,9 +196,9 @@ def graph_sentiment_analysis(text, nlp, lemmatization=False, max_distance=20, ne
   """
 
   words_all, text_all, ners_all, words_dict = get_words_for_nodes(text, list_ners=ner_list, lemmatization=lemmatization, nlp=nlp, max_nodes=max_nodes)
-  weight_matrix_all, occ_list_all=get_weights_of_edges(text_all, words_all, max_distance=max_distance, ner_list=ners_all)
+  weight_matrix_all, occ_list_all=get_weights_of_edges(text_all, words_all, max_distance=max_distance)#, ner_list=ners_all)
   sentiment_scores_all=calculate_sentiment_for_nodes(words_all, compound=compound)
-  weighted_sentiment_all=weighted_sentiment_func(weight_matrix_all, occ_list_all, sentiment_scores_all, words=words_all, ner_list=ners_all)
+  weighted_sentiment_all=weighted_sentiment_func(weight_matrix_all, occ_list_all, sentiment_scores_all, words=words_all)#,ner_list=ners_all)
   if calculate_overall_score==1:
     return calculate_sentiment_of_text(weighted_sentiment_all, output_number=output_number, threshold=threshold)
   elif calculate_overall_score==0:

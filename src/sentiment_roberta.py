@@ -11,7 +11,7 @@ def run_roberta_sentiment(articles):
     articles (list): list of articles on which the sentiment should be analysed.
   """
   answers=[" " for _ in range(len(articles))]
-  model_name="textattack/roberta-base-SST-2"
+  model_name="textattack/roberta-base-SST-2" #https://huggingface.co/textattack/roberta-base-SST-2, accessed in November 2024
   model = AutoModelForSequenceClassification.from_pretrained(model_name)
   tokenizer = AutoTokenizer.from_pretrained(model_name)
   device = "cuda:0" if torch.cuda.is_available() else "cpu"
