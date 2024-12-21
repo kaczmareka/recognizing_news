@@ -48,6 +48,8 @@ def get_incident_from_gpt(articles, client):
   Uses OpenAI API to get an answer to prepared prompt for incident recognition, given articles.
   Returns both answers and confidence of answers.
 
+  For more detailed description regarding incidents, please refer to `other_experiments/README.md`.
+
   Args:
     articles (list): list of articles, which will be interpreted by GPT model
     client: openai client instance

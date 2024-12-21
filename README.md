@@ -46,6 +46,7 @@ For reproducing our work, please relate to `other_experiments` directory. Please
 To run the final version of the presented work, please look on `Final_pipeline.ipynb` notebook. 
 
 ## Structure of the repository
+
 * `data` - directory with most of the data needed to run `final_pipeline.ipynb`. The only file too big to store on GitHub is the original Actaware Inc data, which should be downloaded from [here](https://drive.google.com/file/d/1WNaTt7WLZjqp6-JyS9kj7XVsVG6v59N9/view?usp=sharing) and moved to `data` folder.
 * `img` - directory with all images needed for `README.md`.
 * `notebooks_with_experiments` - directory containg notebooks for the experiments conducted during this work.

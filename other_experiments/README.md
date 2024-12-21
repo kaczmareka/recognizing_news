@@ -1,6 +1,8 @@
 # TUTAJ TO SIĘ UPDATE SPORY PRZYDA!!!
 i sprawdzenie czy w tym folderze wszystkie pliki są ok
 
+"For more detailed description regarding incidents, please refer to `other_experiments/README.md`."
+
 # Recognizing Selected Features in the News Text
 
 This repository includes materials created during work on the paper `Recognizing Selected Features in the News Text`. It includes demonstrating scenario of the created pipeline, prepared data and codes used to run all experiments related to the work.
