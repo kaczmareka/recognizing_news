@@ -1,6 +1,6 @@
 # Notebooks used to conduct experiments
 
-The notebooks present in this directory were used to conduct experiments described in the thesis. To run each of them the environment `env_actaware` is needed. Additionally, for some of them exist other requirements listed below or in `requirements.txt` file in this directory. Some of the files needed GPU, therefore were run sepatarely on GoogleColab. Some of the notebooks require additional datasets or files.
+The notebooks present in this directory were used to conduct experiments described in the work. To run each of them the environment `env_actaware` is needed. Additionally, for some of them exist other requirements listed below or in `requirements.txt` file in this directory. Some of the files needed GPU, therefore were run sepatarely on GoogleColab. Some of the notebooks require additional datasets or files.
 
 ## Notebooks
 * `actaware_data_preprocessing.ipynb`
